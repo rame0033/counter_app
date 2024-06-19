@@ -10,7 +10,7 @@ body {
 }
 
 main{
-    max-width:1000px;
+    width:35vw;
     background: rgba(152, 169, 72, 0.28);
     margin: 0 auto;
     border-radius: 0.5rem;
@@ -49,6 +49,10 @@ button {
     transition: all 0.2s ease
 }
 
+button:active {
+    transform: scale(0.95);
+}
+
 /* Increment button */
 #increment-btn {
     border: 0.2rem solid #ff5252;
@@ -76,4 +80,11 @@ button {
     max-width:75%;
     margin:0 auto;
     padding:0.2rem 0.6rem;    
+}
+
+@media screen and (min-width: 768px) {
+    .btn-wrap {
+        flex-direction: row;
+    }
+    
 }
