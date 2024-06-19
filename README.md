@@ -1,4 +1,4 @@
-#Passenger Counter Application
+# Passenger Counter Application
 
 Project courtesy of [Scrimba](https://v2.scrimba.com/learn-javascript-c0v) - this is the first project I made for practicing JavaScript.
 
