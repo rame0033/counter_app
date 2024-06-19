@@ -1,6 +1,6 @@
-//DOM for increment and save buttons 
-let saveEl = document.getElementById("save-el") // Save-btn
-let countEl = document.getElementById("count-el") // Increment-btn
+//DOM for increment and save
+let saveEl = document.getElementById("save-el") // Saving the logged numbers
+let countEl = document.getElementById("count-el") // Logging the increment number on every click
 let count = 0 // Counter initial value
 
 
