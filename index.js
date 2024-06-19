@@ -13,7 +13,7 @@ function increment() {
 // Function to save the count
 function save() {
     let countStr = count + " - "; // String to display the counts
-    saveEl.textContent += countStr // Display the counts
+    saveEl.textContent += countStr
     count = 0 // Reset the counter
     countEl.textContent = count // Display the saved counts
-}
+}   
