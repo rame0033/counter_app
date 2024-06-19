@@ -28,6 +28,7 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Default wrap for buttons */
 .btn-wrap{
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@ h2 {
     gap: 10px;
 }
 
+/* Default styling for buttons */
 button {
     border: none;
     padding-top: 10px;
@@ -47,27 +49,31 @@ button {
     transition: all 0.2s ease
 }
 
+/* Increment button */
 #increment-btn {
     border: 0.2rem solid #ff5252;
 }
 
+/* Increment button on hover */
 #increment-btn:hover {
     background-color: #ff5252;
     color: #fffef0;
 }
 
+/* Save Button */
 #save-btn {
     border: 0.2rem solid #10b713;
 }
 
-.entries{
-    max-width:75%;
-    margin:0 auto;
-    padding:0.2rem 0.6rem;
-    
-}
-
+/* Save button on hover */
 #save-btn:hover {
     background-color: #10b713;
     color: #fffef0;
+}
+
+/* Styling for the 'entries' portion */
+.entries{
+    max-width:75%;
+    margin:0 auto;
+    padding:0.2rem 0.6rem;    
 }
