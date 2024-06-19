@@ -15,5 +15,5 @@ function save() {
     let countStr = count + " - "; // String to display the counts
     saveEl.textContent += countStr
     count = 0 // Reset the counter
-    countEl.textContent = count // Display the saved counts
+    countEl.textContent = count // Reset the display
 }   
